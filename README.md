@@ -96,6 +96,12 @@ Install **VsCodeVim** extension.
 code --install-extension vscodevim.vim
 ```
 
+Install **PowerShell** extension.
+
+```ps
+code --install-extension ms-vscode.powershell
+```
+
 Set `settings.json`.
 
 ```json
