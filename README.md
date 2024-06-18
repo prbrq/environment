@@ -108,3 +108,5 @@ explorer $env:USERPROFILE\Downloads\CascadiaMono\
 - [ ] Implement automatic font installation.
 - [ ] Set using PowerShell Core by default.
 - [ ] Add troubleshooting.
+- [ ] Add zoxide.
+- [ ] Add Windows specific stuff.
