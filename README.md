@@ -103,6 +103,12 @@ rm $env:USERPROFILE\Downloads\CascadiaMono\README.md
 explorer $env:USERPROFILE\Downloads\CascadiaMono\
 ```
 
+Remove **CaskaydiaMono NF** directory.
+
+```ps
+rm -r $env:USERPROFILE\Downloads\CascadiaMono\
+```
+
 ## ToDo
 
 - [ ] Implement automatic font installation.
