@@ -110,7 +110,6 @@ Set `settings.json`.
 Set `keybindings.json`.
 
 ```json
-// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+j",
