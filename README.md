@@ -12,6 +12,20 @@ Install **Telegram**.
 winget install Telegram.TelegramDesktop
 ```
 
+### KeePass
+
+Install **KeePass**.
+
+```ps
+winget install DominikReichl.KeePass
+```
+
+Install **KeePassOneDriveSync**.
+
+```ps
+Invoke-WebRequest https://github.com/KoenZomers/KeePassOneDriveSync/releases/download/2.1.2.2/KeeOneDriveSync.plgx -OutFile "C:\Program Files\KeePass Password Safe 2\Plugins\KeeOneDriveSync.plgx"
+```
+
 Install **PowerShell**.
 
 ```ps
