@@ -12,6 +12,12 @@ Install **Telegram**.
 winget install Telegram.TelegramDesktop
 ```
 
+Install **zoxide**.
+
+```ps
+winget install ajeetdsouza.zoxide
+```
+
 ### KeePass
 
 Install **KeePass**.
@@ -90,6 +96,30 @@ Install **VsCodeVim** extension.
 code --install-extension vscodevim.vim
 ```
 
+Set `settings.json`.
+
+```json
+{
+    "editor.fontFamily": "CaskaydiaMono NF",
+    "editor.lineNumbers": "relative",
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false
+}
+```
+
+Set `keybindings.json`.
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "!terminalFocus"
+    }
+]
+```
+
 ### Preferred font
 
 Download and install **CaskaydiaMono NF**.
@@ -130,3 +160,5 @@ code $env:USERPROFILE\Projects\Environment\
 - [ ] Add troubleshooting.
 - [ ] Add zoxide.
 - [ ] Add Windows specific stuff.
+- [X] Add Visual Studio Code settings.
+- [X] Add Visual Studio Code shortcuts.
