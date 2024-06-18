@@ -109,6 +109,20 @@ Remove **CaskaydiaMono NF** directory.
 rm -r $env:USERPROFILE\Downloads\CascadiaMono\
 ```
 
+## Editing
+
+Clone repo.
+
+```
+git clone https://github.com/prbrq/Environment.git $env:USERPROFILE\Projects\Environment\
+```
+
+Open Visual Studio Code to edit **Environment**.
+
+```
+code $env:USERPROFILE\Projects\Environment\
+```
+
 ## ToDo
 
 - [ ] Implement automatic font installation.
