@@ -111,10 +111,10 @@ Install **VsCodeVim** extension.
 code --install-extension vscodevim.vim
 ```
 
-Install **PowerShell** extension.
+Install **Vim Theme** extension.
 
 ```ps
-code --install-extension ms-vscode.powershell
+code --install-extension harryhopkinson.vim-theme
 ```
 
 Set `settings.json`.
@@ -124,7 +124,9 @@ Set `settings.json`.
     "editor.fontFamily": "CaskaydiaMono NF",
     "editor.lineNumbers": "relative",
     "workbench.startupEditor": "none",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Vim Dark Hard"
 }
 ```
 
