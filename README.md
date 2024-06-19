@@ -32,10 +32,25 @@ Install **KeePassOneDriveSync**.
 Invoke-WebRequest https://github.com/KoenZomers/KeePassOneDriveSync/releases/download/2.1.2.2/KeeOneDriveSync.plgx -OutFile "C:\Program Files\KeePass Password Safe 2\Plugins\KeeOneDriveSync.plgx"
 ```
 
+### PowerShell
+
 Install **PowerShell**.
 
 ```ps
 winget install Microsoft.Powershell
+```
+
+Install **Terminal-Icons** module.
+
+```ps
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+
+Modify `$PROFILE`.
+
+```
+Import-Module -Name Terminal-Icons
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
 ```
 
 Install **.NET**.
