@@ -18,6 +18,12 @@ Install **qBittorrent**.
 winget install qBittorrent.qBittorrent
 ```
 
+Install **DBeaver**.
+
+```ps
+winget install dbeaver.dbeaver
+```
+
 Install **Obsidian**.
 
 ```ps
@@ -189,6 +195,7 @@ Set `settings.json`.
         "Cascadia",
         "Caskaydia",
         "csdevkit",
+        "dbeaver",
         "Dominik",
         "dotnettools",
         "Duffield",
