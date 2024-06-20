@@ -87,6 +87,11 @@ Modify `$PROFILE`.
 ```
 Import-Module -Name Terminal-Icons
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+Set-Alias -Name cr -Value OpenCodeWithReuse
+
+function OpenCodeWithReuse {
+	code . -r
+}
 ```
 
 Install **.NET**.
@@ -175,6 +180,12 @@ Install **REST Client** extension.
 
 ```ps
 code --install-extension humao.rest-client
+```
+
+Install **PowerShell** extension.
+
+```ps
+code --install-extension ms-vscode.powershell
 ```
 
 Set `settings.json`.
