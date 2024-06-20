@@ -12,10 +12,40 @@ Install **Telegram**.
 winget install Telegram.TelegramDesktop
 ```
 
+Install **qBittorrent**.
+
+```ps
+winget install qBittorrent.qBittorrent
+```
+
+Install **Obsidian**.
+
+```ps
+winget install Obsidian.Obsidian
+```
+
+Install **PowerToys**.
+
+```ps
+winget install Microsoft.PowerToys
+```
+
+Install **fzf**.
+
+```ps
+winget install junegunn.fzf
+```
+
 Install **zoxide**.
 
 ```ps
 winget install ajeetdsouza.zoxide
+```
+
+Install **Sumatra PDF**.
+
+```ps
+winget install SumatraPDF.SumatraPDF
 ```
 
 ### KeePass
@@ -158,6 +188,7 @@ Set `settings.json`.
         "Duffield",
         "Fastfetch",
         "harryhopkinson",
+        "junegunn",
         "Lazygit",
         "Neovim",
         "plgx",
