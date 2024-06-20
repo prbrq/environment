@@ -93,7 +93,7 @@ winget install JesseDuffield.lazygit
 
 ### Visual Studio Code
 
-Install **Vistual Studio Code**.
+Install **Visual Studio Code**.
 
 ```ps
 winget install Microsoft.VisualStudioCode
@@ -117,6 +117,18 @@ Install **Vim Theme** extension.
 code --install-extension harryhopkinson.vim-theme
 ```
 
+Install **Code Spell Checker** extension.
+
+```ps
+code --install-extension streetsidesoftware.code-spell-checker
+```
+
+Install **Russian - Code Spell Checker** extension.
+
+```ps
+code --install-extension streetsidesoftware.code-spell-checker-russian
+```
+
 Set `settings.json`.
 
 ```json
@@ -126,7 +138,29 @@ Set `settings.json`.
     "workbench.startupEditor": "none",
     "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Vim Dark Hard"
+    "workbench.colorTheme": "Vim Dark Hard",
+    "editor.cursorBlinking": "smooth",
+    "cSpell.language": "en,ru",
+    "cSpell.userWords": [
+        "ajeetdsouza",
+        "Arkady",
+        "Cascadia",
+        "Caskaydia",
+        "csdevkit",
+        "Dominik",
+        "dotnettools",
+        "Duffield",
+        "Fastfetch",
+        "harryhopkinson",
+        "Lazygit",
+        "plgx",
+        "Reichl",
+        "UEFI",
+        "USERPROFILE",
+        "vscodevim",
+        "winget",
+        "zoxide"
+    ]
 }
 ```
 
@@ -163,6 +197,16 @@ Set `keybindings.json`.
         "command": "workbench.action.nextEditor"
     }
 ]
+```
+
+Install **Ubuntu**.
+
+Enable virtualization in BIOS/UEFI.
+
+Install **WSL**. **Ubuntu** distribution will be installed automatically.
+
+```ps
+wsl --install
 ```
 
 ### Preferred font
