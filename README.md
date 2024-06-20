@@ -165,6 +165,12 @@ Install **Russian - Code Spell Checker** extension.
 code --install-extension streetsidesoftware.code-spell-checker-russian
 ```
 
+Install **REST Client** extension.
+
+```ps
+code --install-extension humao.rest-client
+```
+
 Set `settings.json`.
 
 ```json
@@ -188,6 +194,7 @@ Set `settings.json`.
         "Duffield",
         "Fastfetch",
         "harryhopkinson",
+        "humao",
         "junegunn",
         "Lazygit",
         "Neovim",
