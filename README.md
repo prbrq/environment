@@ -91,6 +91,12 @@ Install **Lazygit**.
 winget install JesseDuffield.lazygit
 ```
 
+Install **Neovim**.
+
+```ps
+winget install Neovim.Neovim
+```
+
 ### Visual Studio Code
 
 Install **Vistual Studio Code**.
@@ -203,7 +209,7 @@ code $env:USERPROFILE\Projects\Environment\
 - [ ] Implement automatic font installation.
 - [ ] Set using PowerShell Core by default.
 - [ ] Add troubleshooting.
-- [ ] Add zoxide.
+- [X] Add zoxide.
 - [ ] Add Windows specific stuff.
 - [X] Add Visual Studio Code settings.
 - [X] Add Visual Studio Code shortcuts.
