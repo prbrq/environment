@@ -159,6 +159,7 @@ Set `settings.json`.
         "Fastfetch",
         "harryhopkinson",
         "Lazygit",
+        "Neovim",
         "plgx",
         "Reichl",
         "UEFI",
