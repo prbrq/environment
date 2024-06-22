@@ -1,5 +1,11 @@
 ## Getting Started
 
+Install **7-Zip**
+
+```ps
+winget install 7zip.7zip
+```
+
 Install **Firefox**.
 
 ```ps
