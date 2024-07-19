@@ -22,4 +22,5 @@ pacman -Syu --needed \
     dbeaver \
     lazygit \
     git \
-    base-devel
+    base-devel \
+    man-db
