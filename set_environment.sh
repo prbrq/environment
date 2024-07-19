@@ -1,7 +1,8 @@
 #!/bin/sh
 
-sudo ./install_packages.sh
-./set_git_user_info.sh
-./install_yay.sh
-./install_user_packages.sh
-./install_code_extensions.sh
+sudo ./Scripts/install_packages.sh
+./Scripts/set_git_user_info.sh
+./Scripts/install_yay.sh
+./Scripts/install_user_packages.sh
+./Scripts/install_code_extensions.sh
+./Scripts/set_code_config_files.sh
