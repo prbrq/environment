@@ -17,7 +17,8 @@ pacman -Syu --needed \
     noto-fonts-extra \
     wmctrl \
     ttf-cascadia-mono-nerd \
-    dotnet-sdk aspnet-runtime \
+    dotnet-sdk \
+    aspnet-runtime \
     fzf \
     dbeaver \
     lazygit \
