@@ -25,4 +25,5 @@ pacman -Syu --needed \
     git \
     base-devel \
     man-db \
-    nodejs
+    nodejs \
+    discord
