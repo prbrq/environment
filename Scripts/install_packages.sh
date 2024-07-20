@@ -23,4 +23,5 @@ pacman -Syu --needed \
     lazygit \
     git \
     base-devel \
-    man-db
+    man-db \
+    nodejs
