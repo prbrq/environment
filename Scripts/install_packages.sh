@@ -26,4 +26,8 @@ pacman -Syu --needed \
     base-devel \
     man-db \
     nodejs \
-    discord
+    discord \
+    bash \
+    bash-completion \
+    virtualbox \
+    virtualbox-guest-iso
