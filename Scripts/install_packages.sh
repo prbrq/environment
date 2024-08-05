@@ -1,33 +1,33 @@
 #!/bin/sh
 
 pacman -Syu --needed \
-    firefox \
-    obsidian \
-    zoxide \
-    keepassxc \
-    telegram-desktop \
+    aspnet-runtime \
+    base-devel \
+    bash-completion \
+    docker \
+    docker-buildx \
+    docker-compose \
+    dotnet-sdk \
     fastfetch \
-    alacritty \
-    neovim \
-    qbittorrent \
+    firefox \
+    fzf \
+    git \
+    gnome-browser-connector \
+    htop \
+    keepass \
+    kitty \
+    lazygit \
+    man-db \
     mpv \
+    neovim \
     noto-fonts \
     noto-fonts-cjk \
     noto-fonts-emoji \
     noto-fonts-extra \
-    wmctrl \
+    obsidian \
+    qbittorrent \
+    telegram-desktop \
     ttf-cascadia-mono-nerd \
-    dotnet-sdk \
-    aspnet-runtime \
-    fzf \
-    dbeaver \
-    lazygit \
-    git \
-    base-devel \
-    man-db \
-    nodejs \
-    discord \
-    bash \
-    bash-completion \
-    virtualbox \
-    virtualbox-guest-iso
+    yazi \
+    zed \
+    zoxide
