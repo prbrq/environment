@@ -30,4 +30,6 @@ pacman -Syu --needed \
     ttf-cascadia-mono-nerd \
     yazi \
     zed \
-    zoxide
+    zoxide \
+    chromium \
+    ffmpeg
