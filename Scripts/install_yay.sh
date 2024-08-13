@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-git clone https://aur.archlinux.org/yay.git ~/Projects/Clonned/yay
-cd ~/Projects/Clonned/yay
+git clone https://aur.archlinux.org/yay.git ~/Projects/yay
+cd ~/Projects/yay
 makepkg -si
-rm -rf ~/Projects/Clonned/yay
+rm -rf ~/Projects/yay

@@ -1,6 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 pacman -Syu --needed \
+    noto-fonts \
+    noto-fonts-cjk \
+    noto-fonts-emoji \
+    noto-fonts-extra \
     aspnet-runtime \
     base-devel \
     bash-completion \
@@ -20,10 +24,6 @@ pacman -Syu --needed \
     man-db \
     mpv \
     neovim \
-    noto-fonts \
-    noto-fonts-cjk \
-    noto-fonts-emoji \
-    noto-fonts-extra \
     obsidian \
     qbittorrent \
     telegram-desktop \

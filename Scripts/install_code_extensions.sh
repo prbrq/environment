@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 code --install-extension ms-dotnettools.csdevkit
 code --install-extension vscodevim.vim
