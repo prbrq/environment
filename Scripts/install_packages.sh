@@ -32,4 +32,6 @@ pacman -Syu --needed \
     zed \
     zoxide \
     chromium \
-    ffmpeg
+    ffmpeg \
+    wireguard-tools \
+    openresolv
