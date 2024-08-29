@@ -34,4 +34,11 @@ pacman -Syu --needed \
     chromium \
     ffmpeg \
     wireguard-tools \
-    openresolv
+    openresolv \
+    ffmpegthumbnailer \
+    p7zip \
+    jq \
+    poppler \
+    fd \
+    ripgrep \
+    imagemagick
