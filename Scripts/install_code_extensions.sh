@@ -9,3 +9,4 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension christian-kohler.npm-intellisense
+code --install-extension codeium.codeium
