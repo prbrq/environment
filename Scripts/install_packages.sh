@@ -41,4 +41,5 @@ pacman -Syu --needed \
     poppler \
     fd \
     ripgrep \
-    imagemagick
+    imagemagick \
+    inetutils 

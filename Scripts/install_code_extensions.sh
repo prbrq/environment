@@ -10,3 +10,4 @@ code --install-extension Gruntfuggly.todo-tree
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension codeium.codeium
+code --install-extension usernamehw.errorlens

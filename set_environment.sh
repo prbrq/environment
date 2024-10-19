@@ -11,3 +11,6 @@ sudo ./Scripts/install_packages.sh
 ./Scripts/setup_zoxide.sh
 ./Scripts/setup_yazi.sh
 ./Scripts/setup_keepass_plugins.sh
+./Scripts/after_all.sh
+
+echo "Please reboot your computer now."
