@@ -1,0 +1,114 @@
+{
+    "apps": [
+        {
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "24.09",
+            "Info": "",
+            "Updated": "2024-12-29T00:11:18.3825554+03:00"
+        },
+        {
+            "Source": "nerd-fonts",
+            "Name": "CascadiaMono-NF",
+            "Version": "3.3.0",
+            "Info": "",
+            "Updated": "2024-12-29T00:13:35.6996463+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "fastfetch",
+            "Version": "2.35.0",
+            "Info": "",
+            "Updated": "2025-02-09T21:13:49.6890592+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "7.1",
+            "Info": "",
+            "Updated": "2024-11-07T14:44:53.0894694+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.59.0",
+            "Info": "",
+            "Updated": "2025-02-09T21:13:58.2583444+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "jq",
+            "Version": "1.7.1",
+            "Info": "",
+            "Updated": "2025-03-05T20:11:02.244487+03:00"
+        },
+        {
+            "Source": "extras",
+            "Name": "mpv",
+            "Version": "0.39.0",
+            "Info": "",
+            "Updated": "2024-11-07T14:37:37.988989+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.10.4",
+            "Info": "",
+            "Updated": "2025-02-09T21:15:08.9524324+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "nvm",
+            "Version": "1.2.2",
+            "Info": "",
+            "Updated": "2025-01-07T20:15:30.8678749+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.22.1",
+            "Info": "",
+            "Updated": "2025-03-25T21:40:18.3817132+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "yt-dlp",
+            "Version": "2025.01.26",
+            "Info": "",
+            "Updated": "2025-02-09T21:17:57.4096474+03:00"
+        },
+        {
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.6",
+            "Info": "",
+            "Updated": "2025-01-07T20:56:15.5687852+03:00"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": "2025-03-25T19:29:37+03:00",
+            "Manifests": 1387
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2025-03-25T19:30:56+03:00",
+            "Manifests": 2145
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2025-03-25T17:23:28+03:00",
+            "Manifests": 360
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2025-03-25T19:42:44+03:00",
+            "Manifests": 127
+        }
+    ]
+}
